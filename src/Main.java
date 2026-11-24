@@ -41,7 +41,7 @@ public class Main {
         try {
 
             // Read the file and insert words into the AVL tree.
-            analyzer.processFile(filename);
+            analyzer.readFile(filename);
 
             // Display words in alphabetical order.
             System.out.println();
