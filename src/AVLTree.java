@@ -156,6 +156,16 @@ public class AVLTree {
 
     }
 
+    /*
+    * Method Name: Node insert(Node node, String key)
+    * Description: 
+    * 
+    * @param describe the parameters for the method. 
+    * @return describe what is returned from the method  
+    *      
+    (delete this if it is a void method) 
+    */ 
+
     // part of the AVL tree
     private Node insert(Node node, String key) {
 
@@ -286,6 +296,13 @@ public class AVLTree {
         inOrder(root);
     }
 
+     /*
+     * Method Name: inOrder()
+     * Description: Starts an in-order traversal from the root to display words in alphabetical order.
+     *
+     * @param describe the parameters for the method.
+     * @return describe what is returned from the method
+     */
     private void inOrder(Node node) {
 
         if (node == null) {
@@ -302,7 +319,13 @@ public class AVLTree {
         inOrder(node.right);
     }
 
-
+     /*
+     * Method Name: preOrder()
+     * Description: Starts an in-order traversal from the root to display words in alphabetical order.
+     *
+     * @param describe the parameters for the method.
+     * @return describe what is returned from the method
+     */
     public void preOrder() {
 
         if (root == null) {
