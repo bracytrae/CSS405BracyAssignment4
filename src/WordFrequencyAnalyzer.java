@@ -33,7 +33,7 @@ public class WordFrequencyAnalyzer {
     }
 
     // Reads a text file and inserts words into the AVL tree.
-    public void processFile(String filename)
+    public void readFile(String filename)
             throws FileNotFoundException {
 
         File file = new File(filename);
